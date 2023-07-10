@@ -1,0 +1,168 @@
+  /* header CSS codes started */
+  .head {
+      width: 100%;
+      height: 90px;
+      background-color: #fff;
+      border-bottom: 2px solid #ccc;
+  }
+
+  .name {
+      width: 250px;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 80px;
+      color: #fff;
+      background-color: #4aaaa5;
+      text-align: center;
+      margin-left: 5px;
+      text-decoration: none;
+  }
+
+  .nav {
+      height: 100%;
+      padding: 34px;
+      margin-left: 300px;
+  }
+
+  li:not(:last-child) {
+      border-right: 1px solid #efefef;
+  }
+
+  .nav>ul>li>a {
+      text-decoration: none;
+      color: red;
+      font-size: 18px;
+      color: #999;
+  }
+
+  .nav>ul>li {
+      list-style: none;
+      float: right;
+  }
+
+  /* header CSS codes finished */
+
+  /* main CSS codes started */
+  .main-general {
+      width: 100%;
+      height: 550px;
+      background-image: url(../images/concrete_seamless.png);
+      padding-top: 40px;
+  }
+
+  .left {
+      height: 95%;
+      background-color: #fff;
+      color: #777;
+      border: 1px solid #ddd;
+  }
+
+  .left>h1 {
+      padding: 30px 0 30px 30px;
+      font-size: 30px;
+      font-weight: 700;
+      color: #4aaaa5;
+  }
+
+  hr {
+      width: 90%;
+      height: 2px;
+      border-width: 0;
+      color: #ddd;
+      background-color: #ddd;
+      margin-left: 30px;
+  }
+
+  .left>img {
+      width: 200px;
+      height: 150px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 25px;
+      float: left;
+  }
+
+  .left>.p-p {
+      font-size: 18px;
+      color: #777;
+      margin: 12px 30px 20px 30px;
+      line-height: 40px;
+  }
+
+  .aside {
+      padding: 0px 25px;
+      box-sizing: content-box;
+      height: 210px;
+      background-color: #fff;
+      color: #777;
+      border: 1px solid #ddd;
+  }
+
+  .aside>hr {
+      width: 80%;
+      height: 1px;
+      border-width: 0;
+      color: #ddd;
+      background-color: #eee;
+      margin-left: 30px;
+      margin-bottom: 15px;
+  }
+
+  .aside>h2 {
+      padding: 30px 0 25px 30px;
+      font-size: 22px;
+      font-weight: 700;
+      color: #4aaaa5;
+  }
+
+  .social {
+      margin-left: 28px;
+  }
+
+  .imgs {
+      width: 60px;
+      height: 60px;
+      margin-top: 10px;
+      margin-left: 3px;
+  }
+
+  .imgs:last-child {
+      margin-right: 0;
+  }
+
+  /* main CSS codes finished */
+
+  /* footer CSS codes started */
+  .foot {
+      width: 100%;
+      height: 100px;
+      background-color: #666;
+      border-top: 8px solid #4aaaa5;
+      text-align: center;
+  }
+
+  .foot>p {
+      padding: 30px;
+      font-size: 12px;
+      color: #ccc;
+  }
+
+  /* footer CSS codes finished */
+
+  @media all and (max-width: 992px) {
+    .aside {
+        margin-top: 30px;
+        margin-right: -50px;
+    }
+
+    .foot{
+        margin-bottom: 0px;
+    }
+
+    .imgs {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+  }
